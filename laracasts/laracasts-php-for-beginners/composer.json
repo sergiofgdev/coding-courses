@@ -1,0 +1,27 @@
+{
+    "name": "sergiodev/php-for-beginners",
+    "autoload": {
+        "psr-4": {
+            "Sergiodev\\PhpForBeginners\\": "src/",
+            "Core\\": "Core/",
+            "Http\\" : "Http/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergio",
+            "email": "sergiofg.dev@protonmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.47"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
