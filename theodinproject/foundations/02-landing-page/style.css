@@ -1,0 +1,142 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 50px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.hero-text {
+    max-width: 40%;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #d1d5db;
+}
+
+.hero button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-image {
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Info Section */
+.info {
+    text-align: center;
+    padding: 50px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-box {
+    text-align: center;
+    width: 150px;
+}
+
+.image-placeholder {
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin: auto;
+}
+
+/* Quote Section */
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
+    margin-right: 50px;
+}
+
+/* Call to Action */
+.cta {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.cta-container {
+    background-color: #3b82f6;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.cta button {
+    background-color: white;
+    color: #3b82f6;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
+}
